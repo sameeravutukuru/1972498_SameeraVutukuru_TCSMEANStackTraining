@@ -1,0 +1,85 @@
+
+.font{
+    font-family:monospace;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color:black;
+    margin-top: 150px;
+    text-decoration: none;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid rgb(20, 20, 20); 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    resize: vertical; 
+  }
+  
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #246127;
+  }
+  
+  .h1{
+text-decoration: none;
+  }
+  
+  .programsManager {
+    border-radius: 10px;
+    background-color: #faefef;
+    padding: 20px;
+    margin-top: 50px; /* Add a top margin */
+    margin-bottom: 175px; /* Bottom margin */
+    margin-left: 500px;
+    margin-right: 500px;
+    border:5px solid rgb(20, 20, 20);
+
+  }
+
+  .fiteam{
+    font-family:monospace;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color:black;
+    margin-top: 150px;
+    text-decoration: none;
+ }
+
+ .center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    line-height: 20px;
+    border-radius: 5px;
+    background-color: #f7f4f4;
+    padding: 20px;
+    padding-left:0px;
+    padding-right:50px;
+    margin-top: 100px; /* Add a top margin */
+    margin-bottom: 100px; /* Bottom margin */
+    border:5px solid rgb(20, 20, 20);
+    text-align:center;
+    font-size:20px;
+        }
+ 
+
+
+

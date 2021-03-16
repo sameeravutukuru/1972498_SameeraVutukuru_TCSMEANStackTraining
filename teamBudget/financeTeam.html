@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="budget.css">
+    <script src="teamBudget.js"></script>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+  padding: 15px;
+}
+th {
+  text-align: left;
+}
+h1{text-align: center;}
+        </style>
+        <h1 size:20px>Annual Budget</h1>
+   
+</head>
+<body onload="tableLoad(event)">
+
+    <table  class="center" style="width:50%" id="BudgetTable">
+        <tr>
+            <th>Clientname</th>
+            <th>Projectname</th>
+            <th>Budgets</th>
+        </tr>
+    </table>
+    
+        <input type="button" value="back"  onclick="location.href='home.html'">
+</body>
+</html>

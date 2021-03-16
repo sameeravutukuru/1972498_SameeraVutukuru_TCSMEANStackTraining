@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="budget.css">
+    <script src="teamBudget.js"></script>
+</head>
+<body>
+    <body>
+        <h1 align="center"><font color="black" size=5px><u>Program Manager</u></font></h1>
+
+        <div class="programsManager">
+            <h2 align="center"><font color="black" size=5px><u>Add New Budget</u></font></h2>
+            <form>
+              <label for="Clientname">Client Name</label>
+              <input type="text" id="Cname" name="Clientname" placeholder="Client Name!!">
+          
+              <label for="Projectname">Project Name</label>
+              <input type="text" id="Pname" name="Projectname" placeholder="Project Name!!">
+          
+              <label for="Budget">Budget</label>
+              <input type="number" id="Budgets" name="Bname" placeholder="Budget">
+    
+              
+              <input type="submit" value="Add" onclick="addRow(event)">
+              <input type="submit" value="Clear" onclick="clear()">
+              
+            </form>
+            <input type="button" value="back" onclick="location.href='home.html'">
+        </div>
+    </body>
+</body>
+</html>
