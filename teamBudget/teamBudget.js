@@ -1,26 +1,26 @@
 function addRow(event)
 {
-    let cname = document.getElementById("Cname").value;
-    let pname = document.getElementById("Pname").value;
-    let budgets = document.getElementById("Budgets").value;
+    let Title = document.getElementById("Title").value;
+    let Desc = document.getElementById("Desc").value;
+    let blogs = document.getElementById("blogs").value;
     event.preventDefault(); 
     // localStorage.clear();
-    // console.log(cname, pname, budgets);  
+    // console.log(Title, Desc, blogs);  
     // console.log("local Storage",localStorage);
     // let Object1 = [{
-    //     "cname" : cname,
-    //     "pname" : pname,
-    //     "budgets" : budgets
-    // },{"cname":"llk","pname":"knkl","budgets":"hjhjkkj"}];
+    //     "Title" : Title,
+    //     "Desc" : Desc,
+    //     "blogs" : blogs
+    // },{"Title":"llk","Desc":"knkl","blogs":"hjhjkkj"}];
 
     // localStorage.setItem("rows",JSON.stringify(Object1));
 
     if(!localStorage.getItem("rows"))
     {
         let Object1 = [{
-            "cname" : cname,
-            "pname" : pname,
-            "budgets" : budgets
+            "Title" : Title,
+            "Desc" : Desc,
+            "blogs" : blogs
         }];
 
         console.log("added first item : ",Object1);
@@ -32,9 +32,9 @@ function addRow(event)
         console.log("before",JSON.parse(localStorage.getItem("rows")));
 
         let Object2 = {
-            "cname" : cname,
-            "pname" : pname,
-            "budgets" : budgets
+            "Title" : Title,
+            "Desc" : Desc,
+            "blogs" : blogs
         };
 
         let currentRows = JSON.parse(localStorage.getItem("rows"));
@@ -68,7 +68,7 @@ function tableLoad(event)
         console.log("Adding Row : ",JSON.parse(localStorage.getItem("rows"))[i]);
         addNewRow(JSON.parse(localStorage.getItem("rows"))[i]);
 
-        count += parseInt(JSON.parse(localStorage.getItem("rows"))[i]["budgets"]);
+        count += parseInt(JSON.parse(localStorage.getItem("rows"))[i]["blogs"]);
     }
     console.log("Complete Count : ",count);
 
@@ -87,39 +87,39 @@ function addNewRow(row)
     
 
 
-     /////////Pname
+     /////////Desc
      var td2 = document.createElement('td');          // TABLE DEFINITION.
-     td2 = tr.insertCell(row["pname"]);
+     td2 = tr.insertCell(row["Desc"]);
  
      var ele2 = document.createElement('p');
-     ele2.innerHTML = row["budgets"];
+     ele2.innerHTML = row["blogs"];
  
      td2.appendChild(ele2);
     
-     /////////Pname
+     /////////Desc
     var td1 = document.createElement('td');          // TABLE DEFINITION.
-    td1 = tr.insertCell(row["pname"]);
+    td1 = tr.insertCell(row["Desc"]);
 
     var ele1 = document.createElement('p');
-    ele1.innerHTML = row["pname"];
+    ele1.innerHTML = row["Desc"];
 
     td1.appendChild(ele1);
 
 
-    ////////Cname
+    ////////Title
     var td = document.createElement('td');          // TABLE DEFINITION.
-    td = tr.insertCell(row["cname"]);
+    td = tr.insertCell(row["Title"]);
 
     var ele = document.createElement('p');
-    ele.innerHTML = row["cname"];
+    ele.innerHTML = row["Title"];
 
     td.appendChild(ele);
-    // /////////Budgets
+    // /////////blogs
     // var td2 = document.createElement('td');          // TABLE DEFINITION.
-    // td2 = tr.insertCell(row["budgets"]);
+    // td2 = tr.insertCell(row["blogs"]);
 
     // var ele2 = document.createElement('p');
-    // ele2.innerHTML = row["budgets"];
+    // ele2.innerHTML = row["blogs"];
 
     // td2.appendChild(ele2);
 
@@ -139,7 +139,7 @@ function addTotalRow(count)
     tr = empTab.insertRow(rowCnt);
 
 
-    /////////Pname
+    /////////Desc
     var td2 = document.createElement('td');          // TABLE DEFINITION.
     td2 = tr.insertCell("count1");
 
@@ -148,7 +148,7 @@ function addTotalRow(count)
 
     td2.appendChild(ele2);
 
-    /////////Pname
+    /////////Desc
     var td1 = document.createElement('td');          // TABLE DEFINITION.
     td1 = tr.insertCell("count2");
 
@@ -158,7 +158,7 @@ function addTotalRow(count)
     td1.appendChild(ele1);
 
 
-    ////////Cname
+    ////////Title
     var td = document.createElement('td');          // TABLE DEFINITION.
     td = tr.insertCell("count3");
 
