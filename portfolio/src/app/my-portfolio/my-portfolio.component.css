@@ -1,0 +1,22 @@
+#main{
+    border: 2px black solid;
+    width:500px;
+    height: 520px;
+    padding: 5px 20px;
+    
+    background-color: brown;
+    margin-top:40px;
+    margin-left:450px;
+}
+h2{
+    text-align: center;
+    color: whitesmoke;
+}
+label,a{
+    color: whitesmoke;
+    margin: 8px;
+}
+.btn{
+    border-radius: 170px;
+    background-color: whitesmoke;
+}
