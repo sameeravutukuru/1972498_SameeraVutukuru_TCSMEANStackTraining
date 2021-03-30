@@ -1,0 +1,8 @@
+<div style="background: lavender;">
+  <h1 style="text-align: center;">Online Test</h1>
+  <input type="button" [value]="b1" (click)="change()"/>
+  <hr>
+  <div *ngIf="flag">
+    <app-quiz></app-quiz>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+[
+    {"question":"Which book is not written by JK Rowling?",
+        "answer1":"The Cuckoo's Calling","answer2":"The Silkworm","answer3":"Harry Potter","answer4":"A Midsummer Night's Dream","correctAnswer":4},
+    {"question":"What is Shakespeare's most famous lines?",
+        "answer1":"You don't understand!","answer2":"Here's looking at you, kid","answer3":"Cowards die many times before their deaths","answer4":"Go ahead, make my day.","correctAnswer":3},
+    {"question":"Dan Brown's best book till date",
+        "answer1":"The Da Vinci Code","answer2":" Angels and Demons","answer3":"Inferno","answer4":"Digital Fortress","correctAnswer":1},
+    {"question":"How many plays did shakespeare write?",
+        "answer1":"9","answer2":"78","answer3":"37","answer4":"39","correctAnswer":3},
+    {"question":"How many volumes are there in Sherlock Holmes?",
+        "answer1":"56","answer2":"61","answer3":"45","answer4":"50","correctAnswer":2},
+    {"question":"How many times was Harry Potter rejected by publishers pitched by J.K Rowlings?",
+        "answer1":"12","answer2":"3","answer3":"9","answer4":"16","correctAnswer":1},
+    {"question":"Which of the following book is written by Arundhati Roy?",
+        "answer1":"Last Orders","answer2":"The God of Small Things","answer3":"Amsterdam","answer4":"Disgrace","correctAnswer":2},
+    {"question":"Wings of fire book author?",
+        "answer1":"Tui T. Sutherland","answer2":"Arun Tiwari","answer3":"A. P. J. Abdul Kalam","answer4":"Chethan Bhagat","correctAnswer":1},
+    {"question":" Who is 'The world's best-selling author of all time?' ",
+        "answer1":"Adrian Conan Doyle","answer2":"Agatha Christie","answer3":"Charles Dickens","answer4":"Mark Twain","correctAnswer":2},
+    {"question":"How many books did Durjoy Datta write?",
+        "answer1":"10","answer2":"12","answer3":"8","answer4":"14","correctAnswer":4}
+]
